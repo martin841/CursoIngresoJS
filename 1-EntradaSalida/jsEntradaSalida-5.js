@@ -2,18 +2,21 @@
 ej.: "Usted se llama José y tiene 66 años" 	*/
 function mostrar()
 {   
-    var nombre
+    var nombre  
     var edad
     var union
 
-    nombre = "su nombre es martin";
-    edad = "y tiene 24 años de edad";
+    
+ nombre = document.getElementById("elNombre").value;
+    edad = document.getElementById("laEdad").value;
+
+
+    nombre = "su nombre es" + nombre;
+    edad = "y tiene" + edad ;
     union = (nombre + edad);
 
-    nombre = document.getElementById("nombre");
-    edad = document.getElementById("edad");
-
-    alert (union);
+    
+    alert(union);
 
 
 }

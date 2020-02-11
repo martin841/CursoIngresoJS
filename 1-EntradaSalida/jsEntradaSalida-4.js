@@ -8,7 +8,7 @@ var dato
 
 dato = prompt("tomar el dato");
 
-dato= document.getElementById("mostrar").value;
+dato= document.getElementById("elNombre").value;
 
 }
 

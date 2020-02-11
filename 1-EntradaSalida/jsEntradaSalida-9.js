@@ -6,29 +6,24 @@ function mostrarAumento()
 {  
     //variables
 
-  var sueldo = prompt("sueldo");
+  var sueldo = document.getElementById("sueldo").value;
 
-  var porcentaje = prompt("porcentaje");
+   var sueldomasaumento 
 
-  var sueldomasaumento = (porcentaje*sueldo/100);
- //IDEA DE LA REGLA DE 3 SIMPLES
+     sueldo = parseInt(sueldo);
+
+  
+
  
+
+
+
+   sueldomasaumento = (10*sueldo/ 100);
+
+  resultado = sueldomasaumento
+  
+
+    //rehacer
+    
+
  
- 
- //habilitar la toma de nros enteros//
-
-    sueldo = parseint(sueldo);
-
-    porcentaje = parseint(porcentaje);
-
-    //resultado por alert
- 
-    alert("el porcentaje del 10% del sueldo es de" +sueldomasaumento);
-
-    //validar
-
-    sueldo = document.getElementById(sueldoneto);
-    porcentaje = document.getElementById(porcentaje);
-//NO MUESTRA EL RESULTADO NI POR ALERT,para que sirve el value,en que afecta?
-
-}

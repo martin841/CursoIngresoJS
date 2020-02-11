@@ -3,13 +3,17 @@ function mostrar()
 //tomo la edad  
 var edad
 
-edad = prompt("ingrese la edad");
+edad = document.getElementById("edad").value; 
 
-edad = parseInt(edad);
+if (edad <13) {
+    
+    alert("usted no es adolescente");
+    
+}
 
-if (edad >= 18)
+if (edad > 18)
  {
-    alert("usted NO es un adolescente")
+    alert("usted NO es un adolescente");
 } 
 
 else {

@@ -4,12 +4,11 @@ function mostrar()
 
 var edad
 
-edad = prompt("ingrese su edad");
-
-edad = parseint(edad);
+edad = document.getElementById("edad").value;
 
 
 if (edad >=18) {
+    
     alert("usted es mayor");
 } 
 
@@ -17,4 +16,6 @@ else {
 
     alert("usted es menor");
 }//FIN DE LA FUNCIÓN 
-}//al ingresar la edad no me muestra el resultado de if ni else//
+
+
+}

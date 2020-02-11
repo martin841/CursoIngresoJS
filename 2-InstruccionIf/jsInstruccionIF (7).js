@@ -1,25 +1,26 @@
 function mostrar()
 {
 //tomo la edad  
-var edad
+ var edad
+ var estadocivil
+ //var soltero
+ 
 
-var estadocivil
+  edad = document.getElementById("edad").value;
+  estadocivil = document.getElementById("estadoCivil").value;
+  soltero = document.getElementById("Soltero").value;
+    
+  if (edad <=18 && estadocivil == "Soltero") {
+    
+ 
+//if (estadocivil != "Soltero") {
 
-edad = prompt("ingrese su edad");
-estadocivil = prompt("ingrese su estado civil");
-
-edad = parseInt(edad);
-    
-if (edad <= 18) {
-    
-} 
-if (estadocivil = casado) {
-    
+    alert("usted es muy pequeño para no ser soltero");
 }
 else { alert("usted es muy pequeño para no ser soltero");
     
 }
-//deberia haber un aler por cada if,cada if lleva un else? 
+
  
 
 }//FIN DE LA FUNCIÓN

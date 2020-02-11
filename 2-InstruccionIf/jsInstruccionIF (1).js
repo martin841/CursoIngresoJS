@@ -3,16 +3,19 @@ function mostrar()
 //tomo la edad  
 var edad
 
-edad = prompt("ingrese la edad");
-
-edad = parseInt(edad);
+edad = document.getElementById("edad").value;
 
 
-if (edad >=4) {
+if (edad ==15) {
+
   alert("niña bonita");
 } 
+
+
 else {
-    alert("niña feita");
+
+  alert()
 }
 
-}//FIN DE LA FUNCIÓN
+
+}

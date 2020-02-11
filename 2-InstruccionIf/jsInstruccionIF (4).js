@@ -4,31 +4,23 @@ function mostrar()
 
  var edad 
 
- edad = prompt("ingrerse su edad");
+ edad = document.getElementById("edad").value;
 
- edad = parseint(edad);
+ 
 
- if (edad >= 13) //CONDICION1
-  {                                 //OPCION 1,COLOCAR (EDAD >=13 & <=17)
-                                                  
-    alert("usted es un adolescente");
+
+
+ if ( edad >=13 && edad <=17)  {//CONDICION1
+    
+   alert("usted es un adolescente");
+
  } 
-
-
+                                          
  else {
-    alert("usted no es adolescente");
+    alert("usted NO es adolescente");
  }
 
 
-
- if (edad <=17) //CONDICION2
- {
-    alert("usted es un adolescente");
- } 
-
- else { 
-    alert("usted no es adolescente");
- }
  }//FIN DE LA FUNCIÓN
 
- //NO MUESTRA RESULTADO POR ALERT//
+ 

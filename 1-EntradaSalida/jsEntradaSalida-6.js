@@ -17,5 +17,5 @@ function sumar()
     alert("el valor de la suma es:"+ Suma);
 
 
-
+//resultado no concatenado ej sale 2+5=25
 }

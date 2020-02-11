@@ -2,9 +2,18 @@
 y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
-    var dato
-    dato = document.getElementById("dato").value; 
-    alert = (dato); 
+//caja de dialogo,metodo prompt
+
+var nombre
+
+nombre = document.getElementById("nombre");
+
+
+nombre = prompt("hola cual es tu nombre");
+
+
+alert("bienvenido" + nombre);
+
 }
 
 

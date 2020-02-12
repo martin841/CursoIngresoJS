@@ -1,30 +1,34 @@
 function mostrar()
 {
-//tomo la edad  
+ //tomo la edad  
+                
 
-var edad
+ var edad  
 
-edad = document.getElementById("edad").value;
+  	edad = document.getElementById("edad").value; 
 
+ 	if (edad > 17)
 
-//CONDICIONES//
+ 	{
+ 		alert("es mayor");
+ 	}
 
-if (edad >= 18)
-{
-alert("ustes es mayor de edad");    
-} 
+ 	else
+//METODO DE ANIDACION
+ 	{ 
+ 		if (edad <13 ) 
 
-else (edad <= 13)
-{{
-     alert("usted es un niño");
- }
-if (edad >13 && edad <= 17) {
+ 		{
+ 			alert("es un niño");
+ 		}
 
-    alert ("usted es adolescente");
-}}
+ 		else
 
+ 		{
+ 			alert("es adolecente");
+        }
 
-
+    }
 
 }//FIN DE LA FUNCIÓN
 

@@ -17,20 +17,7 @@ switch(mesDelAño)
 
     default:
      alert("este mes tiene 30 dias");
-    //case Marzo:
-    //case Abril:
-    //case Mayo:
-    //case Junio:
-    //case Julio:
-    //case Agosto:
-    //case Septiembre:
-    //case Octubre:
-    //case Noviembre:
-    //case Diciembre:
-    
-    
-    
-                  }
+ }
 
 
 

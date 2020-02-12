@@ -7,23 +7,51 @@ a su opción  y le informaremos si ganó, empató o perdió.
 var eleccionMaquina;
 
 function comenzar()
-{
-	
+/*
+//acceder a botonera
+{   var ingreso = document.getElementById("FormIngreso").value;
+
+//generacion de numero random
+
+        var numero ;
+  	    
+        numero = parseInt (Math.random()*3);
+    
+        alert(numero);
+
+}
 
 
-}//FIN DE LA FUNCIÓN
+
 function piedra()
 {
+    if (ingreso == 1) {
+
+        alert("usted escogio piedra");
+    
+    }
 	
 
 }//FIN DE LA FUNCIÓN
+
+
+
+
 function papel()
 {
+    if (ingreso == 2) {
 
+    alert("usted escogio papel");
+                       }
 
 }//FIN DE LA FUNCIÓN
+
+
+
 function tijera()
 {
-	
+	if (ingreso == 3) {
 
-}//FIN DE LA FUNCIÓN
+        alert("usted escogio tijera"); }
+
+}//FIN DE LA FUNCIÓN*/

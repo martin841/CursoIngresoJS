@@ -10,33 +10,110 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
  */
 function CalcularPrecio () 
 {
-    var precio = 35
-    var cantidad = document.getElementById("Cantidad").value;
-    var marca = document.getElementById("Marca");
-    var descuento  
-    var marca =document.getElementById("Marca").value;
+ var precio = 35 ;
 
-    precio = parseint(precio);
+var total ;  
 
-if (cantidad => 6) {
-     descuentoA = (35*50/100) 
-     alert(descuentoA);   //50%descuento
-} else {
-    
-}
-   
+var cantidadLamparas = document.getElementById("Cantidad").value;
 
-    descuentoB = (35*40/100);    //40%descuento
-    descuentoB1 = (35*30/100);    //30%descuento
+var descuento ;
+
+var marca = document.getElementById("Marca").value;
+
+var iva ;
+
+
+
+
+
+if (cantidadLamparas>=6) //A
+ {
+    total = cantidadLamparas * precio ;
+        
+    descuento = total * 0.50 ;
+
+ }
+
+ else if (cantidadLamparas==5 && marca ==ArgentinaLuz) //B
+ {  
+                       
+        total = cantidadLamparas * precio ;
+
+        descuento = total * 0.40 ;     
+     } 
+
+        
+
+     else {
+           
+        total = cantidadLamparas * precio ;
+
+         descuento = total *0.30 ;
+               
+            }
+            
  
+ 
+ 
+               if (cantidadLamparas == 4 && marca == ArgentinaLuz | FelipeLamparas) //C
+ 
+                { total = cantidadLamparas * precio ;
+
+                   descuento = total * 0.25 ;
+     
+                }
+
+ 
+      else if (cantidadLamparas == 4 && marca != ArgentinaLuz | FelipeLamparas) {
+      
+        total = cantidadLamparas * precio ;
+
+        descuento = total * 0.20 ;                                       }
+ 
+
+else if (cantidadLamparas ==3 && marca ==ArgentinaLuz)   {       //D              
+    
+    total = cantidadLamparas * precio ;
+
+    descuento = total * 0.15 ;                                        }
+
+
+
+
+else if(cantidadLamparas == 3 && marca == FelipeLamparas)
+       {  
+
+        total =  cantidadLamparas * precio ;
+
+        descuento = total * 0.10 ; 
   
-
-    if (lamparas >=6 ) {
-        
-        alert(descuentoA - 35);  
-    } 
-
+       }
     
-        
     
+
+else if (cantidadLamparas ==3 && marca !== FelipeLamparas | ArgentinaLuz)
+ {
+
+
+
+    total = cantidadLamparas * precio ; 
+
+    descuento = total * 0.05 ;
+
 }
+
+
+//else if (descuento >= 120)     HACERLO BIEN EL SABADO
+ //{
+
+         //total= cantidadLamparas * precio ;
+         
+         //precio = total *0.1 ;
+
+
+        // alert("IIBB Usted pago X”, siendo X el impuesto que se pagó");
+  //  }
+
+
+
+} //fin

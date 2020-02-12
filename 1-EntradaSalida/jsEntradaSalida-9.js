@@ -8,15 +8,15 @@ function mostrarAumento()
 
    var sueldo = document.getElementById("sueldo").value;
    var resultado = document.getElementById("resultado").value;
-   var sueldomasaumento 
+   var sueldoconaumento
 
      sueldo = parseInt(sueldo);
     resultado = parseInt(resultado);
 
   sueldomasaumento = (sueldo*10) /100;
 
- 
-  resultado = (sueldomasaumento)
+ alert( sueldoconaumento)
+  resultado =  (sueldomasaumento)
 
 
     

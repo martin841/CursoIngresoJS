@@ -14,14 +14,16 @@ if (edad >= 18)
 alert("ustes es mayor de edad");    
 } 
 
-if (edad >13 &&  edad <= 17) {
+else (edad <= 13)
+{{
+     alert("usted es un niño");
+ }
+if (edad >13 && edad <= 17) {
 
     alert ("usted es adolescente");
-}
+}}
 
-if (edad <= 13)
 
-{ alert("usted es un niño"); }
 
 
 }//FIN DE LA FUNCIÓN

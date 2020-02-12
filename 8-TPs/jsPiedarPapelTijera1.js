@@ -7,6 +7,31 @@ a su opción  y le informaremos si ganó, empató o perdió.
 var eleccionMaquina;
 
 function comenzar()
+
+ var numero
+
+ numero = parseInt(Math.random()*3);
+
+var eleccionMaquina =document.getElementById("FormIngreso").value;
+
+var resultado1 = "ganas"  ;
+
+var resultado2 =  "empatas" ;
+
+var resultado3 = "pierdes" ;
+
+
+
+
+
+
+
+
+//COMO LE ASIGNO CADA NUMERO A LA IMAGEN,SIN ID
+
+
+
+
 /*
 //acceder a botonera
 {   var ingreso = document.getElementById("FormIngreso").value;

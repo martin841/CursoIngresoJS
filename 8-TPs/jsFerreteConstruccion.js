@@ -95,4 +95,4 @@ alert("la cantidad de material a comprar es de:" + materiales) ;
 
 
     
-//TODO NAN
+//TODO PERFECTO

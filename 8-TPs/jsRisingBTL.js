@@ -9,5 +9,184 @@ F.	Nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para
  */
 function ComenzarIngreso () 
 {
+ var Edad ; 
+
+ var Sexo ;
+
+ var EstadoCivil ;
+
+ var Sueldo ;
+
+ var Legajo ;
+
+ var Nacionalidad ;
+
+
+ Edad = document.getElementById("Edad").value ; 
+
+ Sexo =  document.getElementById("Sexo").value ;
+
+ EstadoCivil =  document.getElementById("EstadoCivil").value ;
+
+ Sueldo =  document.getElementById("Sueldo").value ;
+
+ Legajo =  document.getElementById("Legajo").value ;
+
+ Nacionalidad =  document.getElementById("Nacionalidad").value ;
+
+ Edad = parseInt(edad) ;
+
+ Sueldo = parseInt(sueldo) ;
  
+ Legajo = parseInt(legajo) ;
+
+ Edad = prompt("ingrese su edad:") ;
+
+ if (Edad > 18) {
+
+    alert("dato valido") ;
+
+ } 
+ else{ 
+
+     if (Edad <= 90) { 
+         alert("dato valido")
+     
+       }
+     
+     } else {
+
+        alert("edad mal ingresado");
+     }
+  
+                           /////////////
+
+ Sexo = prompt("Ingrese M para masculino y F para femenino") ;
+
+     if (Sexo = M) {
+
+        alert("dato valido") ;
+    
+     } 
+     else{ 
+    
+         if (Sexo = F) 
+         { 
+             alert("dato valido") ;
+         
+           }
+         
+         } else {
+    
+            alert("sexo mal ingresado") ;
+         }
+                    ////////////////////////////////
+
+ EstadoCivil = prompt("ingrese 1,2,3 o 4:") ;
+
+ if (EstadoCivil = 1) {
+
+    alert("dato valido") ;
+ } 
+
+ else  { 
+
+     if (EstadoCivil = 2) {
+
+        alert("dato valido")
+     
+       }
+     
+    else  {    
+         
+        if (EstadoCivil = 3)
+        { 
+           alert("dato valido")
+        } 
+            else  { 
+           
+                if (EstadoCivil = 4) {
+
+                   alert("dato valido");
+                                     }
+     else{
+        alert("estado civil mal ingresado");
+      }
+
+     }
+
+   }
+
+ }
+                          /////////////////////////////////
+
+Sueldo = prompt("ingrese su sueldo:") ;
+
+if (Sueldo > 8000) {
+
+    alert("dato valido") ;
+ } 
+ else{ 
+
+alert("sueldo bruto muy bajo") ;
+
+ }
+
+                     ////////////////////////////////////////
+Legajo = prompt("ingrese su numero de legajo:") ;
+
+if (Legajo >999) {
+
+    alert("dato valido") ;
+
+ } 
+ else{ 
+     alert("nro de legajo mayor a cuatro cifras,sin zeros a la izquierda");
+
+ }
+                     ///////////////////////////////////////////////
+
+
+
+
+
+
+
+
+Nacionalidad = prompt("ingrese su Nacionalidad: A si es argentino,E si es extranjero y N si es nacionalizado") ;
+
+if (Nacionalidad == A) {
+
+    alert("dato valido") ;
+
+ } 
+ else{ 
+
+     if (Nacionalidad == E) { 
+         alert("dato valido")
+     
+       }
+     
+     } 
+     else { 
+         
+        if (Nacionalidad ==N ) {
+         (alert("dato valido")
+     }
+     
+     else{
+
+        alert("nacionalidad mal ingresada,seleccione : A,E,N");
+     }
+
+    }
 }
+
+
+
+
+
+
+
+
+

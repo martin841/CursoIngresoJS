@@ -22,6 +22,11 @@ function ComenzarIngreso ()
  var Nacionalidad ;
 
 
+
+
+
+
+
  Edad = document.getElementById("Edad").value ; 
 
  Sexo =  document.getElementById("Sexo").value ;
@@ -34,11 +39,24 @@ function ComenzarIngreso ()
 
  Nacionalidad =  document.getElementById("Nacionalidad").value ;
 
+
+
+
+
+
+
  Edad = parseInt(edad) ;
 
  Sueldo = parseInt(sueldo) ;
  
  Legajo = parseInt(legajo) ;
+
+
+
+
+
+
+  //EDAD//
 
  Edad = prompt("ingrese su edad:") ;
 
@@ -54,44 +72,58 @@ function ComenzarIngreso ()
      
        }
      
-     } else {
+      else {
 
         alert("edad mal ingresado");
      }
-  
-                           /////////////
+    }
+
+
+
+
+
+
+                          //SEXO//
 
  Sexo = prompt("Ingrese M para masculino y F para femenino") ;
 
-     if (Sexo = M) {
+     if (Sexo == M) {
 
         alert("dato valido") ;
     
      } 
-     else{ 
+     else  { 
     
-         if (Sexo = F) 
+         if (Sexo == F) 
          { 
              alert("dato valido") ;
          
            }
          
-         } else {
+         
+        else {
     
             alert("sexo mal ingresado") ;
          }
-                    ////////////////////////////////
+        }
+    
+
+
+
+
+
+                    // ESTADO CIVIL//
 
  EstadoCivil = prompt("ingrese 1,2,3 o 4:") ;
 
- if (EstadoCivil = 1) {
+ if (EstadoCivil == 1) {
 
     alert("dato valido") ;
  } 
 
  else  { 
 
-     if (EstadoCivil = 2) {
+     if (EstadoCivil == 2) {
 
         alert("dato valido")
      
@@ -99,13 +131,13 @@ function ComenzarIngreso ()
      
     else  {    
          
-        if (EstadoCivil = 3)
+        if (EstadoCivil == 3)
         { 
            alert("dato valido")
         } 
             else  { 
            
-                if (EstadoCivil = 4) {
+                if (EstadoCivil == 4) {
 
                    alert("dato valido");
                                      }
@@ -116,9 +148,15 @@ function ComenzarIngreso ()
      }
 
    }
-
+ 
  }
-                          /////////////////////////////////
+
+
+
+
+
+
+                          //SUELDO//
 
 Sueldo = prompt("ingrese su sueldo:") ;
 
@@ -132,19 +170,26 @@ alert("sueldo bruto muy bajo") ;
 
  }
 
-                     ////////////////////////////////////////
+
+
+
+
+                    //LEGAJO//
+
 Legajo = prompt("ingrese su numero de legajo:") ;
+
 
 if (Legajo >999) {
 
     alert("dato valido") ;
+}
 
- } 
+
  else{ 
-     alert("nro de legajo mayor a cuatro cifras,sin zeros a la izquierda");
+     alert("nro de legajo mayor a cuatro cifras,sin zeros a la izquierda") ;
 
  }
-                     ///////////////////////////////////////////////
+                     
 
 
 
@@ -152,29 +197,32 @@ if (Legajo >999) {
 
 
 
+
+//NACIONALIDAD//
 
 Nacionalidad = prompt("ingrese su Nacionalidad: A si es argentino,E si es extranjero y N si es nacionalizado") ;
 
-if (Nacionalidad == A) {
+ if (Nacionalidad == A) {
 
     alert("dato valido") ;
-
  } 
- else{ 
+
+ else { 
 
      if (Nacionalidad == E) { 
-         alert("dato valido")
-     
+
+         alert("dato valido") ;
+
        }
-     
-     } 
+  
+
      else { 
          
         if (Nacionalidad ==N ) {
-         (alert("dato valido")
+         alert("dato valido");
      }
      
-     else{
+     else {
 
         alert("nacionalidad mal ingresada,seleccione : A,E,N");
      }
@@ -182,8 +230,8 @@ if (Nacionalidad == A) {
     }
 }
 
-
-
+}
+//FIN//
 
 
 

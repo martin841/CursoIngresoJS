@@ -45,11 +45,11 @@ function ComenzarIngreso ()
 
 
 
- Edad = parseInt(edad) ;
+ /*Edad = parseInt(edad) ;
 
  Sueldo = parseInt(sueldo) ;
  
- Legajo = parseInt(legajo) ;
+ Legajo = parseInt(legajo) ;*/
 
 
 
@@ -60,26 +60,18 @@ function ComenzarIngreso ()
 
  Edad = prompt("ingrese su edad:") ;
 
- if (Edad > 18) {
+ if (Edad > 18 && Edad <= 90 ) {
 
     alert("dato valido") ;
 
  } 
- else{ 
+ else 
+ { 
 
-     if (Edad <= 90) { 
-         alert("dato valido")
-     
-       }
-     
-      else {
 
         alert("edad mal ingresado");
      }
-    }
-
-
-
+    
 
 
 

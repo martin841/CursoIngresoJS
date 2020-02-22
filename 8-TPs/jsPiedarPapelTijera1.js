@@ -9,8 +9,10 @@ var eleccionMaquina;
 function comenzar()
 
  var numero
+ 
+ numero =Math.floor(Math.random() * 10) + 1;
 
- numero = parseInt(Math.random()*3);
+ //numero = parseInt(Math.random()*3 +1);
 
 var eleccionMaquina =document.getElementById("FormIngreso").value;
 
